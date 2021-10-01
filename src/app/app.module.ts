@@ -22,6 +22,7 @@ import { StudentTableComponent } from './components/student-table/student-table.
 import { TeacherTableComponent } from './components/teacher-table/teacher-table.component';
 import { StudentTableMobileComponent } from './components/student-table-mobile/student-table-mobile.component';
 import { TeacherTableMobileComponent } from './components/teacher-table-mobile/teacher-table-mobile.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { TeacherTableMobileComponent } from './components/teacher-table-mobile/t
     MatListModule,
     MatSlideToggleModule,
     FormsModule,
-    MatTabsModule 
+    MatTabsModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

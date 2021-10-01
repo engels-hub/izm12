@@ -14,7 +14,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 div.tabs{
   width:80%;
   margin-left: 10%;
-  text-align: center;
+  //text-align: center;
 }
 @media (min-width: 600px){
 .mobile{
@@ -24,5 +24,9 @@ display:none;
 @media (max-width: 599px){
   .pc{
   display:none;
+  } 
   }
-  }
+
+  .mat-expansion-panel-header-description {
+    flex-grow: 0 !important;
+}
