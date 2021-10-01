@@ -1,0 +1,922 @@
+{
+  "students":{
+     "data":{
+        "id":"d2de46f7-e78c-4821-bc6f-ab8ac7d396c4",
+        "dayOfWeek":"Monday",
+        "date":"1615227249",
+        "classes":[
+           {
+              "class":"10a",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Ķīmija",
+                          "teacherName":"Andra Reinholde",
+                          "note":{
+                             "noteId":"34c91f6e-1e92-49bc-8a22-c571cb8d5d17",
+                             "noteText":"ukuqweu qweyqw lasaisoa sqwe rico",
+                             "createdDate":"1611583821"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Latviešu valoda",
+                          "teacherName":"Vita Sondore",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"104",
+                          "subject":"Vācu val.",
+                          "teacherName":"Karīna Krūma",
+                          "note":null
+                       },
+                       {
+                          "room":"330",
+                          "subject":"Krievu val.",
+                          "teacherName":"Ruta Tumova",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"D-1",
+                          "subject":"Datori",
+                          "teacherName":"Elma Rudzīte",
+                          "note":null
+                       },
+                       {
+                          "room":"D-3",
+                          "subject":"Datori",
+                          "teacherName":"Elma Rudzīte",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       }
+                    ]
+                 }
+              ]
+           },
+           {
+              "class":"11c",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Līvija Grosberga-Taubere",
+                          "note":null
+                       },
+                       {
+                          "room":"309",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Ieva Jeromāne",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Vēsture",
+                          "teacherName":"Ina Evardsone",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Fizika",
+                          "teacherName":"Ģirts Zāģeris",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Latviešu valoda",
+                          "teacherName":"Inese Plaude",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Ķīmija",
+                          "teacherName":"Andra Reinholde",
+                          "note":{
+                             "noteId":"25e72455-812a-42c7-ba08-18ba0aea7957",
+                             "noteText":"ukulele l lerler weew as dfdasaew sdf ds ertgds rico",
+                             "createdDate":"1611584074"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"6",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"7",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"8",
+                    "rooms":[
+                       
+                    ]
+                 }
+              ]
+           },
+           {
+              "class":"12a",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"212",
+                          "subject":"Latviešu valoda",
+                          "teacherName":"Santa Lagzdiņa",
+                          "note":{
+                             "noteId":"068e1cd5-8249-44bf-ba86-05dd8b0664f2",
+                             "noteText":"rew e qwewer w kkeruuk erewr wert tyrty rre",
+                             "createdDate":"1611584169"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"312",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Sanita Rieksta",
+                          "note":null
+                       },
+                       {
+                          "room":"313",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Sanita Mileiko",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Regīna Simanovska",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Bioloģija",
+                          "teacherName":"Līva Pētersone-Niedrīte",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"6",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"7",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"8",
+                    "rooms":[
+                       
+                    ]
+                 }
+              ]
+           },
+           {
+              "class":"12c",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"234",
+                          "subject":"Bioloģija",
+                          "teacherName":"Līva Pētersone-Niedrīte",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"234",
+                          "subject":"Matemātika",
+                          "teacherName":"Regīna Simanovska",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"234",
+                          "subject":"Ķīmija",
+                          "teacherName":"Andra Reinholde",
+                          "note":{
+                             "noteId":"bdb524a7-05c1-42e1-89ad-7197a31780ea",
+                             "noteText":"qwey rqsldfh agwq li rlolquwre w eqasdf fs rioc",
+                             "createdDate":"1611583943"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"328",
+                          "subject":"Vācu",
+                          "teacherName":"Inga Zeltiņa",
+                          "note":null
+                       },
+                       {
+                          "room":"128",
+                          "subject":"Franču",
+                          "teacherName":"Vija Babre",
+                          "note":null
+                       },
+                       {
+                          "room":"332",
+                          "subject":"Krievu val.",
+                          "teacherName":"Veronika Kjapsņa",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"6",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"7",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"8",
+                    "rooms":[
+                       
+                    ]
+                 }
+              ]
+           }
+        ]
+     }
+  },
+  "studentst":{
+     "data":{
+        "id":"d2de46f7-e78c-4821-bc6f-ab8ac7d396c4",
+        "dayOfWeek":"Monday",
+        "date":"1615227249",
+        "classes":[
+           {
+              "class":"10a",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Ķīmija",
+                          "teacherName":"Andra Reinholde",
+                          "note":{
+                             "noteId":"34c91f6e-1e92-49bc-8a22-c571cb8d5d17",
+                             "noteText":"ukuqweu qweyqw lasaisoa sqwe rico",
+                             "createdDate":"1611583821"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Latviešu valoda",
+                          "teacherName":"Vita Sondore",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"104",
+                          "subject":"Vācu val.",
+                          "teacherName":"Karīna Krūma",
+                          "note":null
+                       },
+                       {
+                          "room":"330",
+                          "subject":"Krievu val.",
+                          "teacherName":"Ruta Tumova",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"D-1",
+                          "subject":"Datori",
+                          "teacherName":"Elma Rudzīte",
+                          "note":null
+                       },
+                       {
+                          "room":"D-3",
+                          "subject":"Datori",
+                          "teacherName":"Elma Rudzīte",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       },
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Dace Andžāne",
+                          "note":null
+                       }
+                    ]
+                 }
+              ]
+           },
+           {
+              "class":"11c",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Līvija Grosberga-Taubere",
+                          "note":null
+                       },
+                       {
+                          "room":"309",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Ieva Jeromāne",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Vēsture",
+                          "teacherName":"Ina Evardsone",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Fizika",
+                          "teacherName":"Ģirts Zāģeris",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Latviešu valoda",
+                          "teacherName":"Inese Plaude",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       {
+                          "room":"122",
+                          "subject":"Ķīmija",
+                          "teacherName":"Andra Reinholde",
+                          "note":{
+                             "noteId":"25e72455-812a-42c7-ba08-18ba0aea7957",
+                             "noteText":"ukulele l lerler weew as dfdasaew sdf ds ertgds rico",
+                             "createdDate":"1611584074"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"6",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"7",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"8",
+                    "rooms":[
+                       
+                    ]
+                 }
+              ]
+           },
+           {
+              "class":"12a",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"212",
+                          "subject":"Latviešu valoda",
+                          "teacherName":"Santa Lagzdiņa",
+                          "note":{
+                             "noteId":"068e1cd5-8249-44bf-ba86-05dd8b0664f2",
+                             "noteText":"rew e qwewer w kkeruuk erewr wert tyrty rre",
+                             "createdDate":"1611584169"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"312",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Sanita Rieksta",
+                          "note":null
+                       },
+                       {
+                          "room":"313",
+                          "subject":"Angļu valoda",
+                          "teacherName":"Sanita Mileiko",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Matemātika",
+                          "teacherName":"Regīna Simanovska",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"119",
+                          "subject":"Bioloģija",
+                          "teacherName":"Līva Pētersone-Niedrīte",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"6",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"7",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"8",
+                    "rooms":[
+                       
+                    ]
+                 }
+              ]
+           },
+           {
+              "class":"12c",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "rooms":[
+                       {
+                          "room":"234",
+                          "subject":"Bioloģija",
+                          "teacherName":"Līva Pētersone-Niedrīte",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"2",
+                    "rooms":[
+                       {
+                          "room":"234",
+                          "subject":"Matemātika",
+                          "teacherName":"Regīna Simanovska",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "rooms":[
+                       {
+                          "room":"234",
+                          "subject":"Ķīmija",
+                          "teacherName":"Andra Reinholde",
+                          "note":{
+                             "noteId":"bdb524a7-05c1-42e1-89ad-7197a31780ea",
+                             "noteText":"qwey rqsldfh agwq li rlolquwre w eqasdf fs rioc",
+                             "createdDate":"1611583943"
+                          }
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"4",
+                    "rooms":[
+                       {
+                          "room":"328",
+                          "subject":"Vācu",
+                          "teacherName":"Inga Zeltiņa",
+                          "note":null
+                       },
+                       {
+                          "room":"128",
+                          "subject":"Franču",
+                          "teacherName":"Vija Babre",
+                          "note":null
+                       },
+                       {
+                          "room":"332",
+                          "subject":"Krievu val.",
+                          "teacherName":"Veronika Kjapsņa",
+                          "note":null
+                       }
+                    ]
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"6",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"7",
+                    "rooms":[
+                       
+                    ]
+                 },
+                 {
+                    "lessonNumber":"8",
+                    "rooms":[
+                       
+                    ]
+                 }
+              ]
+           }
+        ]
+     }
+  },
+  "teachers":{
+     "data":{
+        "date":"1615227249",
+        "dayOfWeek":"Monday",
+        "teachers":[
+           {
+              "teacherName":"Andra Reinholde",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "class":"10a",
+                    "room":"119",
+                    "note":{
+                       "noteId":"34c91f6e-1e92-49bc-8a22-c571cb8d5d17",
+                       "noteText":"Today rico",
+                       "createdDate":"1611583821"
+                    }
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "class":"12c",
+                    "room":"234",
+                    "note":{
+                       "noteId":"bdb524a7-05c1-42e1-89ad-7197a31780ea",
+                       "noteText":"qwey rqsldfh agwq li rlolquwre w eqasdf fs rioc",
+                       "createdDate":"1611583943"
+                    }
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "class":"11c",
+                    "room":"122",
+                    "note":{
+                       "noteId":"25e72455-812a-42c7-ba08-18ba0aea7957",
+                       "noteText":"ukulele l lerler weew as dfdasaew sdf ds ertgds rico",
+                       "createdDate":"1611584074"
+                    }
+                 }
+              ]
+           },
+           {
+              "teacherName":"Santa Lagzdiņa",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "class":"12a",
+                    "room":"212",
+                    "note":{
+                       "noteId":"068e1cd5-8249-44bf-ba86-05dd8b0664f2",
+                       "noteText":"rew e qwewer w kkeruuk erewr wert tyrty rre",
+                       "createdDate":"1611584169"
+                    }
+                 }
+              ]
+           },
+           {
+              "teacherName":"Ina Evardsone",
+              "lessons":[
+                 {
+                    "lessonNumber":"69",
+                    "class":"11d",
+                    "room":"420",
+                    "note":{
+                       "noteId":"068e1cd5-8249-44bf-ba86-05dd8b0664f2",
+                       "noteText":"y r u ge",
+                       "createdDate":"1611584169"
+                    }
+                 }
+              ]
+           }
+        ]
+     }
+  },
+  "teacherst":{
+     "data":{
+        "date":"1615227249",
+        "dayOfWeek":"Monday",
+        "teachers":[
+           {
+              "teacherName":"Andra Reinholde",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "class":"10a",
+                    "room":"119",
+                    "note":{
+                       "noteId":"34c91f6e-1e92-49bc-8a22-c571cb8d5d17",
+                       "noteText":"Today rico",
+                       "createdDate":"1611583821"
+                    }
+                 },
+                 {
+                    "lessonNumber":"3",
+                    "class":"12c",
+                    "room":"234",
+                    "note":{
+                       "noteId":"bdb524a7-05c1-42e1-89ad-7197a31780ea",
+                       "noteText":"qwey rqsldfh agwq li rlolquwre w eqasdf fs rioc",
+                       "createdDate":"1611583943"
+                    }
+                 },
+                 {
+                    "lessonNumber":"5",
+                    "class":"11c",
+                    "room":"122",
+                    "note":{
+                       "noteId":"25e72455-812a-42c7-ba08-18ba0aea7957",
+                       "noteText":"ukulele l lerler weew as dfdasaew sdf ds ertgds rico",
+                       "createdDate":"1611584074"
+                    }
+                 }
+              ]
+           },
+           {
+              "teacherName":"Santa Lagzdiņa",
+              "lessons":[
+                 {
+                    "lessonNumber":"1",
+                    "class":"12a",
+                    "room":"212",
+                    "note":{
+                       "noteId":"068e1cd5-8249-44bf-ba86-05dd8b0664f2",
+                       "noteText":"rew e qwewer w kkeruuk erewr wert tyrty rre",
+                       "createdDate":"1611584169"
+                    }
+                 }
+              ]
+           },
+           {
+              "teacherName":"Ina Evardsone",
+              "lessons":[
+                 {
+                    "lessonNumber":"69",
+                    "class":"11d",
+                    "room":"420",
+                    "note":{
+                       "noteId":"068e1cd5-8249-44bf-ba86-05dd8b0664f2",
+                       "noteText":"y r u ge",
+                       "createdDate":"1611584169"
+                    }
+                 }
+              ]
+           }
+        ]
+     }
+  }
+}

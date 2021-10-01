@@ -1,0 +1,55 @@
+//variables
+$sidenav-width: 200px;
+
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: $sidenav-width;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+@media (max-width: 599px){
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    justify-content: space-between;
+  }
+  .desktop-mode{
+    display:none;
+  }
+}
+.menu-footer{
+  position:fixed;
+  bottom: 0;
+  display:flex;
+  width: $sidenav-width; 
+  justify-content: space-evenly;
+  margin-bottom:10px;
+}
+@media (min-width: 600px){
+mat-toolbar{
+  display: flex;
+  
+}
+mat-toolbar > *{
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+}
+
+}
+a.desktop-mode{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
