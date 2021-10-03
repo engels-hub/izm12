@@ -1,3 +1,15 @@
-.room{
-    display: flex;
+mat-accordion{
+  width:47%;
+  margin-top: 40px;
+}
+.accordions{
+  display:flex;
+  justify-content: space-evenly
+}
+.lesson-number{
+  margin-top: 5px;
+}
+.no-lesson{
+  margin-top:5px;
+  margin-bottom: 5px;
 }

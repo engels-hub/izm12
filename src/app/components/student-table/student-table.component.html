@@ -1,22 +1,51 @@
+<mat-form-field class="example-form-field" appearance="fill" *ngIf="columns.length>0">
+    <mat-label>Filtrēt izmaiņas</mat-label>
+    <input matInput type="text" (input)="onFilterChange($event,1)" [(ngModel)]="search">
+    <button *ngIf="search" matSuffix mat-icon-button aria-label="Delete" (click)="search=''">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-form-field>
+  <div class="accordions" *ngIf="columns.length>0">
 
-<mat-accordion *ngIf="schedule">
-    <mat-expansion-panel *ngFor="let item of schedule.data.classes">
+
+
+  <mat-accordion *ngFor="let column of columns">
+    <mat-expansion-panel *ngFor="let item of column">
       <mat-expansion-panel-header>
         <mat-panel-title>
-          {{item.class}}
+          {{getClassName(item.class)}}
         </mat-panel-title>
         <mat-panel-description>
           {{item.lessons.length}}
         </mat-panel-description>
       </mat-expansion-panel-header>
       <div *ngFor="let lesson of item.lessons">
-          {{lesson.lessonNumber}}. 
-          <div class="room" *ngFor="let room of lesson.rooms">
-              <span style="flex-grow: 2;">{{room.subject}}</span>
-              <span style="flex-grow: 1;">{{room.teacherName}}</span>
-              <span style="flex-grow: 1;">{{room.room}}</span>
-          </div>
+        <mat-divider></mat-divider>
+        <div class="lesson">
+        <div class="lesson-number" *ngIf="lesson.rooms.length!=0">
+          {{lesson.lessonNumber}}.
+        </div>
+        <div class="room" *ngFor="let room of lesson.rooms">
+          <p style="display: flex; justify-content: space-between">
+            <span>{{room.subject}}</span>
+            <span>
+              {{room.room}}.
+              <mat-divider></mat-divider>
+            </span>
+          </p>
+          <p>Skolotājs: {{room.teacherName}}</p>
+
+        </div>
+        <div class="no-lesson" *ngIf="lesson.rooms.length==0">
+          <span style="margin-right: 10px;">
+            {{lesson.lessonNumber}}.
+          </span>
+          <span>Nenotiek!</span>
+        </div>
+      </div>
       </div>
     </mat-expansion-panel>
-    
+
   </mat-accordion>
+</div>
+<mat-progress-bar *ngIf="columns.length==0" mode="indeterminate"></mat-progress-bar>
