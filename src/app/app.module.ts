@@ -26,6 +26,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatInputModule} from '@angular/material/input';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import {MatInputModule} from '@angular/material/input';
     MatExpansionModule,
     MatDividerModule,
     MatProgressBarModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

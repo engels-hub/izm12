@@ -1,1 +1,51 @@
-<p>student-table-mobile works!</p>
+
+<div class="search-mobile">
+  <mat-form-field class="example-form-field" appearance="standard" *ngIf="filtered">
+  <mat-label>Filtrēt izmaiņas</mat-label>
+  <input matInput type="text" (input)="onFilterChange($event,1)" [(ngModel)]="search">
+  <button *ngIf="search" matSuffix mat-icon-button aria-label="Delete" (click)="emptySearch()">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
+</div>
+
+<mat-accordion *ngIf="filtered">
+  <mat-expansion-panel *ngFor="let item of filtered">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{getClassName(item.class)}}
+      </mat-panel-title>
+      <mat-panel-description>
+        {{item.lessons.length}}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lesson of item.lessons">
+      <mat-divider></mat-divider>
+      <div class="lesson">
+      <div class="lesson-number" *ngIf="lesson.rooms.length!=0">
+        {{lesson.lessonNumber}}.
+      </div>
+      <div class="room" *ngFor="let room of lesson.rooms">
+        <p style="display: flex; justify-content: space-between">
+          <span>{{room.subject}}</span>
+          <span>
+            {{room.room}}.
+            <mat-divider></mat-divider>
+          </span>
+        </p>
+        <p>Skolotājs: {{room.teacherName}}</p>
+        <p class="note" *ngIf="room.note!=null&&room.note.noteText">{{room.note.noteText}}</p>
+      </div>
+      <div class="no-lesson" *ngIf="lesson.rooms.length==0">
+        <span style="margin-right: 10px;">
+          {{lesson.lessonNumber}}.
+        </span>
+        <span>Nenotiek!</span>
+      </div>
+    </div>
+    </div>
+  </mat-expansion-panel>
+
+</mat-accordion>
+
+<mat-progress-bar *ngIf="!filtered" mode="indeterminate"></mat-progress-bar>

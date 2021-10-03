@@ -5,6 +5,82 @@
         "dayOfWeek":"Monday",
         "date":"1615227249",
         "classes":[
+          {
+            "class":"7a",
+            "lessons":[
+               {
+                  "lessonNumber":"1",
+                  "rooms":[
+                     {
+                        "room":"119",
+                        "subject":"Ķīmija",
+                        "teacherName":"Andra Reinholde",
+                        "note":{
+                           "noteId":"34c91f6e-1e92-49bc-8a22-c571cb8d5d17",
+                           "noteText":"ukuqweu qweyqw lasaisoa sqwe rico",
+                           "createdDate":"1611583821"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "lessonNumber":"2",
+                  "rooms":[
+                     {
+                        "room":"119",
+                        "subject":"Latviešu valoda",
+                        "teacherName":"Vita Sondore",
+                        "note":null
+                     }
+                  ]
+               },
+               {
+                  "lessonNumber":"3",
+                  "rooms":[
+                     {
+                        "room":"104",
+                        "subject":"Vācu val.",
+                        "teacherName":"Karīna Krūma",
+                        "note":null
+                     },
+                     {
+                        "room":"330",
+                        "subject":"Krievu val.",
+                        "teacherName":"Ruta Tumova",
+                        "note":null
+                     }
+                  ]
+               },
+               {
+                  "lessonNumber":"4",
+                  "rooms":[
+                     {
+                        "room":"D-1",
+                        "subject":"Datori",
+                        "teacherName":"Elma Rudzīte",
+                        "note":null
+                     },
+                     {
+                        "room":"D-3",
+                        "subject":"Datori",
+                        "teacherName":"Elma Rudzīte",
+                        "note":null
+                     }
+                  ]
+               },
+               {
+                  "lessonNumber":"5",
+                  "rooms":[
+                     {
+                        "room":"119",
+                        "subject":"Matemātika",
+                        "teacherName":"Dace Andžāne",
+                        "note":null
+                     }
+                  ]
+               }
+            ]
+         },
            {
               "class":"10a",
               "lessons":[
@@ -152,19 +228,19 @@
                  {
                     "lessonNumber":"6",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"7",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"8",
                     "rooms":[
-                       
+
                     ]
                  }
               ]
@@ -229,25 +305,25 @@
                  {
                     "lessonNumber":"5",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"6",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"7",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"8",
                     "rooms":[
-                       
+
                     ]
                  }
               ]
@@ -318,25 +394,25 @@
                  {
                     "lessonNumber":"5",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"6",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"7",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"8",
                     "rooms":[
-                       
+
                     ]
                  }
               ]
@@ -539,19 +615,19 @@
                  {
                     "lessonNumber":"6",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"7",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"8",
                     "rooms":[
-                       
+
                     ]
                  }
               ]
@@ -616,25 +692,25 @@
                  {
                     "lessonNumber":"5",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"6",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"7",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"8",
                     "rooms":[
-                       
+
                     ]
                  }
               ]
@@ -705,25 +781,25 @@
                  {
                     "lessonNumber":"5",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"6",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"7",
                     "rooms":[
-                       
+
                     ]
                  },
                  {
                     "lessonNumber":"8",
                     "rooms":[
-                       
+
                     ]
                  }
               ]

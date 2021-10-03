@@ -1,13 +1,14 @@
-<mat-form-field class="example-form-field" appearance="fill" *ngIf="columns.length>0">
+  <div class="search">
+
+<mat-form-field class="example-form-field" appearance="standard" *ngIf="columns.length>0">
     <mat-label>Filtrēt izmaiņas</mat-label>
     <input matInput type="text" (input)="onFilterChange($event,1)" [(ngModel)]="search">
-    <button *ngIf="search" matSuffix mat-icon-button aria-label="Delete" (click)="search=''">
+    <button *ngIf="search" matSuffix mat-icon-button aria-label="Delete" (click)="emptySearch()">
       <mat-icon>close</mat-icon>
     </button>
   </mat-form-field>
+</div>
   <div class="accordions" *ngIf="columns.length>0">
-
-
 
   <mat-accordion *ngFor="let column of columns">
     <mat-expansion-panel *ngFor="let item of column">
@@ -34,7 +35,7 @@
             </span>
           </p>
           <p>Skolotājs: {{room.teacherName}}</p>
-
+          <p class="note" *ngIf="room.note!=null&&room.note.noteText">{{room.note.noteText}}</p>
         </div>
         <div class="no-lesson" *ngIf="lesson.rooms.length==0">
           <span style="margin-right: 10px;">

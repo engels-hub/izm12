@@ -68,14 +68,55 @@ mat-tab-header {
   .mobile {
     display: none;
   }
+
 }
 
 @media (max-width: 599px) {
   .pc {
     display: none;
   }
+  .search-mobile{
+    display: flex;
+    justify-content: flex-end;
+  }
+  mat-form-field{
+    margin-right:15px;
+  }
 }
 
 .mat-expansion-panel-header-description {
   flex-grow: 0 !important;
+}
+
+.lesson{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lesson-number{
+  margin-top: 5px;
+}
+.no-lesson{
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+.note{
+  margin-left: 10px;
+  font-style: italic;
+  font-size:95%;
+  filter: brightness(85%);
+}
+
+.search{
+  display: flex;
+  justify-content:flex-end;
+  padding-right: 20%;
+  vertical-align:baseline;
+}
+
+mat-button-toggle, mat-button-toggle-group{
+  height: fit-content;
+}
+mat-button-toggle-group{
+  margin-top: 1.25em;
 }
