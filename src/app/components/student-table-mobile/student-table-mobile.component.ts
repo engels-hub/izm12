@@ -86,6 +86,7 @@ export class StudentTableMobileComponent implements OnChanges {
 
   public emptySearch(){
     this.search='';
+    this.filtered=this.schedule.data.classes;
   }
 
 
