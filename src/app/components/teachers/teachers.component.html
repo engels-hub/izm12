@@ -1,12 +1,12 @@
 <div class="tabs">
     <mat-tab-group mat-align-tabs="center">
     <mat-tab label="First day">
-        <app-teacher-table class="pc" [data]="a"></app-teacher-table> 
-        <app-teacher-table-mobile class="mobile"></app-teacher-table-mobile>
+        <app-teacher-table class="pc" [schedule]="a"></app-teacher-table>
+        <app-teacher-table-mobile class="mobile" [schedule]="a"></app-teacher-table-mobile>
     </mat-tab>
     <mat-tab label="Next day">
-        <app-teacher-table class="pc" [data]="b"></app-teacher-table>
-        <app-teacher-table-mobile class="mobile"></app-teacher-table-mobile>
+        <app-teacher-table class="pc" [schedule]="b"></app-teacher-table>
+        <app-teacher-table-mobile class="mobile" [schedule]="b"></app-teacher-table-mobile>
     </mat-tab>
   </mat-tab-group>
 </div>
