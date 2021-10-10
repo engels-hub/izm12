@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng dev` for a dev server + json REST API. API data is stored as one json file in the `src/` directory. Navigate to `http://localhost:4200/` for webpage and `http://localhost:3000/` for data.
+Run `npm run dev` for a dev server + json REST API scenario. API data is stored as one json file in the `src/` directory. Navigate to `http://localhost:4200/` for webpage and `http://localhost:3000/` for data.
 
 ## Build
 
