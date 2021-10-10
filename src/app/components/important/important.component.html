@@ -41,9 +41,9 @@
         <mat-icon aria-hidden="false" aria-label="Skolas mājaslapa" class="material-icons-outlined">web</mat-icon>
         <a href="http://r1g.edu.lv/v/index">http://r1g.edu.lv</a>
       </p>
-      <mat-divider [inset]="true"></mat-divider>
-      <p>
-        <mat-icon aria-hidden="false" aria-label="Mobīlā aplikācija" *ngIf="!isIOSDevice()" class="material-icons-outlined">phone_android
+      <mat-divider [inset]="true" *ngIf="!isIOSDevice()"></mat-divider>
+      <p *ngIf="!isIOSDevice()">
+        <mat-icon aria-hidden="false" aria-label="Mobīlā aplikācija"  class="material-icons-outlined">phone_android
         </mat-icon>
         <a href="http://r1g.edu.lv/v/index">Lejupielādēt aplikāciju!</a>
       </p>
