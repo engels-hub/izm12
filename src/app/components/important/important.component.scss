@@ -1,0 +1,40 @@
+mat-card{
+  margin-top: 40px;
+  height: fit-content;
+}
+p{
+  text-align:justify;
+  margin-top:5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+mat-icon{
+  vertical-align: middle;
+  margin-right: 5px;
+}
+@media (min-width: 600px) {
+  .cards{
+    display:flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
+    max-width: 1000px;
+    padding-bottom: 100px;
+  }
+  mat-card{
+    width:45%;
+    margin-right:10px;
+    margin-left:10px;
+  }
+}
+@media (max-width: 599px) {
+  .cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  mat-card{
+    margin-right:30px;
+    margin-left:30px;
+  }
+}
