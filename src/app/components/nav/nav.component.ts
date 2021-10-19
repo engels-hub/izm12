@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
+import { ThemeService } from 'src/app/services/theme.service';
 
 @Component({
   selector: 'app-nav',
@@ -16,10 +17,21 @@ export class NavComponent {
       shareReplay()
     );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
-
-  switch(){
-    console.log(this.darkMode);
+  constructor(private breakpointObserver: BreakpointObserver, private ThemeService: ThemeService) {
+    this.ThemeService.initTheme();
+    this.isDarkMode = this.ThemeService.isDarkMode();
   }
-  darkMode = true;
+  isDarkMode: boolean;
+
+
+  toggleDarkMode(){
+    if(this.isDarkMode) this.isDarkMode=!this.isDarkMode;
+    this.isDarkMode=this.ThemeService.isDarkMode();
+
+
+    this.isDarkMode ? this.ThemeService.update('light-mode') : this.ThemeService.update('dark-mode');
+  }
+  change(newValue: any){
+
+  }
 }

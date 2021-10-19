@@ -1,9 +1,6 @@
-<mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport
-      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-      [mode]="(isHandset$ | async) ? 'over' : 'side'"
-      [opened]="false"
-      >
+<mat-sidenav-container class="sidenav-container" color="primary">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="false" color="primary">
     <mat-toolbar>Izvelne</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item routerLink="/student" (click)="drawer.toggle()">Skolēniem</a>
@@ -11,29 +8,32 @@
       <a mat-list-item routerLink="/important" (click)="drawer.toggle()">Svarīgi</a>
 
       <div class="menu-footer">
-        <mat-icon aria-label="Light mode">brightness_7</mat-icon>
-        <mat-slide-toggle [(ngModel)]= "darkMode"  (click)="switch()"></mat-slide-toggle>
-        <mat-icon aria-label="Dark mode">brightness_2</mat-icon>
+        <button aria-label="Swap colour mode" mat-raised-button (click)="toggleDarkMode()">
+          <mat-icon>invert_colors</mat-icon>
+        </button>
+
       </div>
 
     </mat-nav-list>
   </mat-sidenav>
-  <mat-sidenav-content>
+  <mat-sidenav-content color="primary">
     <mat-toolbar color="primary">
-      <div style="flex-basis: 350px;"><span>Stundu Izmaiņas</span></div>
+      <div style="flex-basis: 350px; display: flex; align-items: center;">
 
-      <a class="desktop-mode" routerLink="/student" >Skolēniem</a>
-      <a class="desktop-mode" routerLink="/teacher" >Skolotājiem</a>
-      <a class="desktop-mode" routerLink="/important" >Svarīgi</a>
+        <img class="icon" src="../../../assets/light_icon.png" >
+        <span style="margin-left:5px;">Stundu Izmaiņas</span>
+      </div>
 
-    <div class="desktop-mode" style="flex-grow:0; flex-basis: 0;">
-      <button  aria-label="Swap colour mode" mat-icon-button click="change()"><mat-icon>invert_colors</mat-icon></button>
-    </div>
-      <button
-        type="button"
-        aria-label="Toggle sidenav"
-        mat-icon-button
-        (click)="drawer.toggle()"
+      <a mat-button class="desktop-mode" routerLink="/student">Skolēniem</a>
+      <a mat-button class="desktop-mode" routerLink="/teacher">Skolotājiem</a>
+      <a mat-button class="desktop-mode" routerLink="/important">Svarīgi</a>
+
+      <div class="desktop-mode" style="flex-grow:0; flex-basis: 0;">
+        <button aria-label="Swap colour mode" mat-icon-button (click)="toggleDarkMode()">
+          <mat-icon>invert_colors</mat-icon>
+        </button>
+      </div>
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>

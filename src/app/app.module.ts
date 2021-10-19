@@ -28,8 +28,6 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatCardModule} from '@angular/material/card';
-
-
 @NgModule({
   declarations: [
     AppComponent,

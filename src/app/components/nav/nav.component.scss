@@ -28,6 +28,11 @@ $sidenav-width: 200px;
   .desktop-mode{
     display:none;
   }
+  .icon{
+    height:35px;
+    width:35px;
+    border-radius: 3px;
+  }
 }
 .menu-footer{
   position:fixed;
@@ -47,10 +52,15 @@ flex-grow: 1;
 flex-shrink: 1;
 flex-basis: 100px;
 }
-
+.icon{
+  height:40px;
+  width:40px;
+  border-radius: 3px;
+}
 }
 a.desktop-mode{
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: large;
 }
