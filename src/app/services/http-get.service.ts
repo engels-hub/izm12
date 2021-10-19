@@ -16,4 +16,10 @@ export class HttpGetService {
     }
     return null;
   }
+
+  getDate(timestamp:number){
+    let date = new Date(timestamp * 1000);
+
+    return date.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  }
 }

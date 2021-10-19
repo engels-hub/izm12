@@ -1,10 +1,10 @@
 <div class="tabs"  >
     <mat-tab-group mat-align-tabs="center">
-    <mat-tab label="Šodien">
+    <mat-tab [label]="firstDate">
         <app-student-table class="pc" [schedule]="a"></app-student-table>
         <app-student-table-mobile class="mobile" [schedule]="a"></app-student-table-mobile>
     </mat-tab>
-    <mat-tab label="Rīt">
+    <mat-tab [label]="secondDate">
         <app-student-table class="pc" [schedule]="b"></app-student-table>
         <app-student-table-mobile class="mobile" [schedule]="b"></app-student-table-mobile>
     </mat-tab>
