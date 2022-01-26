@@ -317,11 +317,16 @@ mat-tab-group {
 div.accordions {
   max-height: 100%;
   overflow: auto !important;
+  height:100%;
+
   //@include scrollbars(.5em, slategray);
   width: 70%;
   margin: auto;
   max-width: 1000px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
+}
+footer{
+  height:20px;
 }
 
 :host {
@@ -333,7 +338,28 @@ div.accordions {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
 
+.mat-tab-body-content{
+  height:auto;
+  overflow: hidden !important;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 mat-tab-header {
   width: 80%;
   margin-left: auto;
